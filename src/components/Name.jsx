@@ -17,7 +17,6 @@ export default function Name({ onSubmit }) {
         type="text"
         value={teamName}
         onChange={(e) => setTeamName(e.target.value)}
-        placeholder="e.g., Team Blue"
       />
 
       <button className="name-submit" onClick={handleSubmit}>
